@@ -31,7 +31,7 @@ function main.Start()
 
  	--直接启动打地鼠游戏
  	main.RunMoleGame() 	
-
+    
 --[[
 	local cube=GameObject.CreatePrimitive(PrimitiveType.Cube)
  	local material=cube:GetComponent(Renderer).material
