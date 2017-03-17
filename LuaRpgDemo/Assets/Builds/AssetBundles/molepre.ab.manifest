@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 524954801
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 962f2a308df31efe4cfa421c544461a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 158a0fc2ecd461933640e1f3d14003e7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Builds/Demo/Prefab/molePre.prefab
+Dependencies:
+- D:/project/me_slua/Assets/Builds/AssetBundles/moleatlas.ab

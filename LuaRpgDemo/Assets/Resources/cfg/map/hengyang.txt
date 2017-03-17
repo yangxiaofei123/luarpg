@@ -1,0 +1,9 @@
+sceneName=hengyang
+levelIndex=1
+sceneAudio=shenmulin
+pos_monsters=135-0-87;50002
+pos_monsters=118-0-105;50001
+pos_monsters=105-0-105;50001
+pos_monsters=95-0-140;50002
+loadMapPoses=50-0-50;scene1
+heroPos=183-0-160

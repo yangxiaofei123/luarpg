@@ -1,0 +1,16 @@
+sceneName=scene1
+levelIndex=0
+sceneAudio=fight
+pos_monsters=135-0-87;50002
+pos_monsters=42-0-265;50001
+pos_monsters=40-0-262;50001
+pos_monsters=41-0-260;50001
+pos_monsters=118-0-105;50001
+pos_monsters=105-0-105;50001
+pos_monsters=111-0-200;50001
+pos_monsters=110-0-198;50001
+pos_monsters=111-0-208;50001
+pos_monsters=130-0-150;50002
+pos_monsters=95-0-140;50002
+loadMapPoses=50-0-50;hengyang
+heroPos=150-0-150

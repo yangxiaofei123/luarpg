@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="RPGLua.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter Name="lua" Directory=".\..\..\Data\lua" Toggle="false" >
+        <LuaFile RelativePath=".\..\..\Data\lua\main.lua" />
+        <Filter Name="demo" Directory=".\..\..\Data\lua\demo" Toggle="true" >
+            <LuaFile RelativePath=".\..\..\Data\lua\demo\demo.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\demo\loadmod.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\demo\mole.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\demo\moleGame.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\demo\testui2.lua" />
+        </Filter>
+        <Filter Name="json" Directory=".\..\..\Data\lua\json" Toggle="true" >
+            <LuaFile RelativePath=".\..\..\Data\lua\json\dkjson.lua" />
+        </Filter>
+        <Filter Name="utils" Directory=".\..\..\Data\lua\utils" Toggle="true" >
+            <LuaFile RelativePath=".\..\..\Data\lua\utils\functions.lua" />
+        </Filter>
+        <Filter Name="rpgdemo" Directory=".\..\..\Data\lua\rpgdemo" Toggle="false" >
+            <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\GameMain.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\MapSystem.lua" />
+            <Filter Name="Role" Directory=".\..\..\Data\lua\rpgdemo\Role" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Role\Role.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Role\Entity.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Role\Hero.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Role\Monster.lua" />
+            </Filter>
+            <Filter Name="Action" Directory=".\..\..\Data\lua\rpgdemo\Action" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Action\HeroMove.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Action\CameraController.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Action\HeroAnimatorController.lua" />
+            </Filter>
+            <Filter Name="Fsm" Directory=".\..\..\Data\lua\rpgdemo\Fsm" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\FSM.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\State.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\AlertState.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\IdleState.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\FollowState.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\AttackState.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Fsm\DeadState.lua" />
+            </Filter>
+            <Filter Name="AI" Directory=".\..\..\Data\lua\rpgdemo\AI" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\AI\SimpleAI.lua" />
+            </Filter>
+            <Filter Name="Util" Directory=".\..\..\Data\lua\rpgdemo\Util" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Util\StateEnum.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Util\GameUtils.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Util\SkillStateEnum.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Util\TriggerCollector.lua" />
+            </Filter>
+            <Filter Name="Skill" Directory=".\..\..\Data\lua\rpgdemo\Skill" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Skill\SkillSystem.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Skill\Skill.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Skill\ActiveSkill.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Skill\PassiveSkill.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\Skill\SkillOne.lua" />
+            </Filter>
+            <Filter Name="UI" Directory=".\..\..\Data\lua\rpgdemo\UI" Toggle="true" >
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\UI\SkillUI.lua" />
+                <LuaFile RelativePath=".\..\..\Data\lua\rpgdemo\UI\PlayerStateUI.lua" />
+            </Filter>
+        </Filter>
+        <Filter Name="test" Directory=".\..\..\Data\lua\test" Toggle="false" >
+            <LuaFile RelativePath=".\..\..\Data\lua\test\DebugTest.lua" />
+            <LuaFile RelativePath=".\..\..\Data\lua\test\ltrace.lua" />
+        </Filter>
+        <Filter Name=".vscode" Directory=".\..\..\Data\lua\.vscode" Toggle="true" />
+    </Filter>
+</Project>
